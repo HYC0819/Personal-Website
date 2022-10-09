@@ -2,10 +2,10 @@
 
 h1 {
     font-family: 'Titillium Web', sans-serif;
+    color: white;
 }
 
 h1.title {
-    color: white;
     line-height: 1;
     font-size: 15vh;
     position: absolute;

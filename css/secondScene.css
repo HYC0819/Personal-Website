@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    line-height: 0.2;
+    font-size: 5vw;
+    position: absolute;
+    right: 10vw;
+    top: 15vh;
+}
+p#frontend {
+    color:rgb(68, 0, 255);
+}
+p#thirdLine {
+    color:orange;
+}
+p#thirdLine.show {
+    color: white;
+    -webkit-transition: color 1000ms linear;
+    -ms-transition: color 1000ms linear;
+    transition: color 1000ms linear;
+}
+p#backend {
+    color:orange;
+}
+p#backend.show {
+    color: #000000;
+    -webkit-transition: color 1000ms linear;
+    -ms-transition: color 1000ms linear;
+    transition: color 1000ms linear;
+}
+body {
+    background-color: orange;
+    overflow: hidden;
+}
+
+img#frontEndGif {
+    position: absolute;
+    margin: 12vw;
+    width: 25vw;
+}
+
+img#backEndGif {
+    position: absolute;
+    top: 135vh;
+    left: 10vw;
+    width: 30vw;
+    height: 20vw;
+    border-radius: 5%;
+}
+
+div.wiper {
+    background-color: rgb(0, 95, 133);
+    position: absolute;
+    top: -100vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
