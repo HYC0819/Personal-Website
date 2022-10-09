@@ -31,9 +31,6 @@ anime({
                 var script = document.createElement('script');
                 script.src = "js/thirdScene.js";
                 document.body.appendChild(script)
-                var script2 = document.createElement('script');
-                script2.src = "js/repo-card.js";
-                document.body.appendChild(script2)
             }
         })
     }
