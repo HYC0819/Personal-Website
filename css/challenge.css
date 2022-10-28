@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body {
+    background-color: rgb(56,72,63);
+    margin: 0;
+    height: 300vh;
+}
+
+h1.title {
+    position: fixed;
+    font-family: sans-serif;
+    color: white;
+    font-size: 3vw;
+    display: inline-block;
+    margin: 0;
+    top: 2vh;
+    left: 2vw;
+}
+
+div.title h1:nth-of-type(2) {
+    margin-left: 1rem;
+}
+
+h1#challenge {
+    position: fixed;
+    font-weight: 400;
+    color: white;
+    font-family: sans-serif;
+    font-size: 4vw;
+    left: 2vw;
+    top: 7vh;
+}
+
+div.impactType h1 {
+    position:relative;
+    z-index: 2;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2vw;
+    color: white;
+    line-height: 0.8;
+}
+
+div.impactType {
+    position: fixed;
+    top: 27vh;
+    left: 22.5vw;
+    width: 20vw;
+    height: 16vh;
+    border-style: solid;
+    border-radius: 5%/15%;
+}
+
+div.bg-image {
+    position: absolute;
+    border-radius: 5%/15%;
+    width: 20vw;
+    height: 16vh;
+    background-color: rgb(60, 94, 73);
+    opacity: 0.7;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: 1;
+}
+
+body {
+    margin: 0;
+}
+
+div.slide {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 30vw;
+    height: 80vh;
+}
+
+div.slide h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.slide p {
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+div.slide p img {
+    width: 15vw;
+    margin-top: 6%;
+    border-radius: 2% / 4%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(33, 43, 37);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(92, 92, 92);
+}
+
+div.slide:nth-of-type(2) {
+    top: 5vh;
+}
+
+div.slide:nth-of-type(3) {
+    top: 125vh;
+}
+
+div.scroll {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 1%;
+}
+
+div.scroll p {
+    color: white;
+    font-family: sans-serif;
+    writing-mode: vertical-rl;
+    font-size: 2vh;
+    letter-spacing: 0.1ch;
+    font-weight: 600;
+    text-orientation:upright;
+}
+
+div.citations-container {
+    text-align: center;
+    font-size: large;
+    width: 65vw;
+    position: fixed;
+    top: 43vh;
+    color: white;
+    font-family: sans-serif;
+}
+
+#citationButton {
+    text-decoration: solid;
+    text-decoration-color: white;
+}
+
+div.citations {
+    height: 50vh;
+    font-size: 0.8vw;
+    color: rgb(204, 255, 247);
+}
